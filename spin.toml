@@ -1,0 +1,18 @@
+spin_manifest_version = 2
+
+[application]
+name = "aos-chal-one"
+version = "0.1.0"
+authors = ["Dimitri <5898931+dimitrilw@users.noreply.github.com>"]
+description = "Fermyon advent-of-spin 2023, challenge 1"
+
+[[trigger.http]]
+route = "/..."
+component = "aos-chal-one"
+
+[component.aos-chal-one]
+source = "target/wasm32-wasi/release/aos_chal_one.wasm"
+allowed_outbound_hosts = []
+[component.aos-chal-one.build]
+command = "cargo build --target wasm32-wasi --release"
+watch = ["src/**/*.rs", "Cargo.toml"]
