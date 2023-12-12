@@ -98,4 +98,5 @@ test: test-rs test-hurl
 submit:
     hurl \
     --error-format long \
-    --variable serviceUrl="https://dimitri-aosc1.fermyon.app" submit.hurl
+    --variable serviceUrl="https://aos-chal-one-wgedpbqc.fermyon.app/" \
+    submit.hurl
