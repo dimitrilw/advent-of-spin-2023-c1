@@ -2,9 +2,10 @@
 
 Fermyon advent-of-spin 2023, challenge 1
 
-Text below is from the
-[Fermyon repo for 2023 challenge 1](https://github.com/fermyon/advent-of-spin/tree/main/2023/Challenge-1),
+Text below is from the [Fermyon repo for 2023 challenge 1][c1repo],
 with minor edits, like adding the checkboxes.
+
+[c1repo]: https://github.com/fermyon/advent-of-spin/tree/main/2023/Challenge-1
 
 <hr/>
 
@@ -72,7 +73,7 @@ Go check out what Matt wants for Christmas!
 And remember, if you want to participate in the swag award,
 go [here](../../README.md#Prizes) and check out how to participate.
 
-## Nobody Must Code Alone!
+## Nobody Must Code Alone
 
 Please don't hesitate to reach out to the elves on
 Fermyon [Discord](https://discord.gg/AAFNfS7NGf) server if you have any questions,
